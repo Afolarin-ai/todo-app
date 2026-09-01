@@ -9,7 +9,7 @@ permissions:
 env:
   AWS_REGION: us-east-1
   ECR_REPO: lab-test-a-pair1-ecr
-  ROLE_ARN: arn:aws:iam::232881763218:role/tesa-lab-gha-role
+  ROLE_ARN: arn:aws:iam::232881763218:role/pinto-tinko-gha-role
 jobs:
   build:
     runs-on: ubuntu-latest
